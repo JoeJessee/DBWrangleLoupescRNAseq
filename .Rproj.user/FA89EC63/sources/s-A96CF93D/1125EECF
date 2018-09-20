@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537214214048.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1125EECF",
+    "lastKnownWriteTime" : 4429539320,
+    "last_content_update" : 1537214214048,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3F178DA2",
+        "caption" : "ensemblIDsPark_Markers",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=ensemblIDsPark_Markers&cache_key=3F178DA2",
+        "displayedObservations" : "1125",
+        "environment" : "",
+        "object" : "ensemblIDsPark_Markers",
+        "preview" : "0",
+        "totalObservations" : "1125",
+        "variables" : "2"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

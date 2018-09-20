@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1536934558685.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1435286222",
+    "id" : "750471E6",
+    "lastKnownWriteTime" : 1537478654,
+    "last_content_update" : 1537478654846,
+    "path" : "~/Desktop/DBWrangle_for_Loupe/DBwrangleScript.R",
+    "project_path" : "DBwrangleScript.R",
+    "properties" : {
+        "cursorPosition" : "20,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

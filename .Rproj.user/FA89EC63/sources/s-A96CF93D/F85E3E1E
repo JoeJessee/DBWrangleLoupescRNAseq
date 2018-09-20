@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537478672653.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F85E3E1E",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1537478672653,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "2778F59",
+        "caption" : "Park_HGNC",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Park_HGNC&cache_key=2778F59",
+        "displayedObservations" : 1192,
+        "environment" : "",
+        "object" : "Park_HGNC",
+        "preview" : 0,
+        "totalObservations" : 1192,
+        "variables" : 1
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

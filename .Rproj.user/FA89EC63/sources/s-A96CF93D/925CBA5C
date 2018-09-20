@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537214396474.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "925CBA5C",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1537214396474,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7C3E76EE",
+        "caption" : "Park_Gene_Markers",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Park_Gene_Markers&cache_key=7C3E76EE",
+        "displayedObservations" : "1192",
+        "environment" : "",
+        "object" : "Park_Gene_Markers",
+        "preview" : "0",
+        "totalObservations" : "1192",
+        "variables" : "2"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
