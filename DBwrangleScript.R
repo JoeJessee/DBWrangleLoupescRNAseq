@@ -13,14 +13,23 @@ colnames(ensemblIDsPark_Markers)[colnames(ensemblIDsPark_Markers)=="Gene stable 
 Park_HGNC <- Park_Gene_Markers[,"HGNC Symbol"]
 # View(Park_HGNC)
 
+## Use biomaRt to get both hgnc and ensembl ID's
+## For reference: attibute numbers for hgnc_symbol =62, ensembl_id = 1
 Park_IDs <- getBM(attributes = c("ensembl_gene_id", "hgnc_symbol"),
       filters = "hgnc_symbol",
       values = Park_HGNC,
       mart = ensembl)
+# re-name the columns in the Park_Gene_Markers df to make them match the biomaRt query
+names(Park_Gene_Markers)[names(Park_Gene_Markers)=="barcode"] <- "List"
+names(Park_Gene_Markers)[names(Park_Gene_Markers)=="HGNC Symbol"] <- "hgnc_symbol"
 
+#merge the newly matching df's
+merge(Park_IDs, Park_Gene_Markers)
+#View(merge(Park_IDs, Park_Gene_Markers))
+## SUCCESS
+Park_list_for_Loupe <- merge(Park_IDs, Park_Gene_Markers)
+View(Park_list_for_Loupe)
 
-## hgnc_symbol =62, ensembl_id = 1
-# View(merge(ensemblIDsPark_Markers, Park_Gene_Markers))
-
-
+# Create CSV of final product
+write.csv("Park_list_for_Loupe", "Park List for Loupe.csv")
 
