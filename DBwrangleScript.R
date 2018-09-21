@@ -30,6 +30,11 @@ merge(Park_IDs, Park_Gene_Markers)
 Park_list_for_Loupe <- merge(Park_IDs, Park_Gene_Markers)
 View(Park_list_for_Loupe)
 
+# reorder columns and format to look like the AMLBloodCell.csv vignette
+Park_list_for_Loupe <- Park_list_for_Loupe[c(3,1,2)]
+names(Park_list_for_Loupe)[names(Park_list_for_Loupe)=="hgnc_symbol"] <- "Name"
+names(Park_list_for_Loupe)[names(Park_list_for_Loupe)=="ensembl_gene_id"] <- "Ensembl"
+
 # Create CSV of final product
-write.csv("Park_list_for_Loupe", "Park List for Loupe.csv")
+write.csv(Park_list_for_Loupe, "Park_list_for_Loupe.csv", row.names = FALSE)
 
