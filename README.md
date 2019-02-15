@@ -1,4 +1,4 @@
 # DBWrangleLoupescRNAseq
 Curation of gene ID's for Loupe Cell Browser
 
-Also a project for me to practice version control on Github
+First R script I made (so like, not impressive at all), and also a project for me to practice version control on Github
